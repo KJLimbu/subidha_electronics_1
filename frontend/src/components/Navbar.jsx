@@ -23,7 +23,7 @@ export const Navbar = () => {
         <div className="">
           <nav
             aria-label="Global"
-            className="flex items-center justify-between p-6 lg:px-8  shadow-indigo-500 shadow backdrop-blur-2xl border-2 rounded-2xl" // this is the navbar fill area
+            className="flex items-center justify-between p-6 lg:px-8  shadow-indigo-500 shadow backdrop-blur-2xl border-y-2" // this is the navbar fill area
           >
             <div className="flex lg:flex-1">
               <a href="#" className="-m-1.5 p-1.5">

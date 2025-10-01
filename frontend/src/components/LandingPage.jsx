@@ -5,15 +5,16 @@ import { FaShoppingCart } from "react-icons/fa";
 
 
 export default function App() {
-  const navigation = [
-    { name: "Product", href: "#" },
-    { name: "Solutions", href: "#" },
-    { name: "About Us", href: "#" },
-    { name: "Contact", href: "#" },
-  ];
+  // const navigation = [
+  //   { name: "Product", href: "#" },
+  //   { name: "Solutions", href: "#" },
+  //   { name: "About Us", href: "#" },
+  //   { name: "Contact", href: "#" },
+  // ];
 
   return (
     <>
+    <Navbar />
       <div className="drawer drawer-end z-100 flex flex-row-reverse mt-13 pr-14 reative pointer-events-none">
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
