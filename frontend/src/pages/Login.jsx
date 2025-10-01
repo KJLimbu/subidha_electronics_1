@@ -67,7 +67,7 @@ const Login = () => {
                     {/* Email Input */}
                     <div>
                         <input 
-                        className="w-full text-sm px-4 py-3 bg-gray-200 focus:bg-white border border-gray-200 rounded-lg focus:outline-none focus:border-purple-400" 
+                        className="w-full text-sm px-4 py-3 bg-gray-200 focus:bg-white border border-gray-200 rounded-lg focus:outline-none focus:border-indigo-400" 
                         type="email" 
                         placeholder="Email" 
                         />
@@ -80,7 +80,7 @@ const Login = () => {
                         // Equivalent: :type="show ? 'text' : 'password'"
                         type={showPassword ? 'text' : 'password'}
                         // NOTE: Changed text-gray-200 to text-gray-800 for contrast on white background
-                        className="text-sm text-gray-800 px-4 py-3 rounded-lg w-full bg-gray-200 focus:bg-white border border-gray-200 focus:outline-none focus:border-purple-400 pr-12"
+                        className="text-sm text-gray-800 px-4 py-3 rounded-lg w-full bg-gray-200 focus:bg-white border border-gray-200 focus:outline-none focus:border-indigo-400 pr-12"
                         />
                         
                         <div className="flex items-center absolute inset-y-0 right-0 mr-3 text-sm leading-5">
